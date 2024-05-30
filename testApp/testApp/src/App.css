@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-title{
+    font-size: larger;
+    padding-left:5rem;
+    padding-right: 5rem;
+}
+
+.nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    display: flex;
+    gap:1rem;
+}
+
+.nav a:hover{
+    color:blue;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+
+}
