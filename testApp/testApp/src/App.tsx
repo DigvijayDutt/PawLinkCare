@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from './pages/about';
-import Home from './pages/home';
-import Signup from './pages/signup';
+import About from './pages/About';
+import Home from './pages/Home';
 import NoPage from './pages/NoPage';
-
+import Login from './pages/Login';
+import Register from './pages/Register';
 function App(){
   return (
     <div>
@@ -12,7 +12,11 @@ function App(){
           <Route index element={<Home />}/>
           <Route path='/home' element={<Home />}/>
           <Route path='/About' element={<About />}/>
-          <Route path='/Signup' element={<Signup />}/>
+          <Route path='/Login' element={<Login />}/>
+          <Route path='/Login/Register' element={<Register />}/>
+          <Route path='/Login/Register/Login' element={<Login />}/>
+          <Route path='/Register' element={<Register />}/>
+          <Route path='/Register/Login' element={<Login />}/>
           <Route path='*' element={<NoPage />}/>
         </Routes>
       </BrowserRouter>

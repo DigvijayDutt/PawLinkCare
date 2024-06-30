@@ -1,0 +1,82 @@
+.login-container {
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f97316;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #f58b4e;
+}
+
+.login-container .alternative-login {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.login-container .alternative-login button {
+    width: 45%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-container .alternative-login button.google {
+    background-color: #db4437;
+}
+
+.login-container .alternative-login button.facebook {
+    background-color: #3b5998;
+}
+
+.login-container .alternative-login button:hover {
+    opacity: 0.9;
+}
+
+.login-container .signup-link {
+    margin-top: 10px;
+}
+
+.login-container .pet-owner-login {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.login-container .pet-owner-login:hover {
+    background-color: #f1f1f1;
+}
