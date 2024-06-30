@@ -18,7 +18,7 @@ function Register(){
         <>
             <Navbar />
             <h3>Create Account</h3>
-            <form onSubmit={handleSubmit}>
+            <form>
                 <label htmlFor="FirstName">First Name</label>
                 <input value={FirstName} type="text" placeholder="your name" id="FirstName" name="FirstName" />
                 <label htmlFor="LastName">Last Name</label>
