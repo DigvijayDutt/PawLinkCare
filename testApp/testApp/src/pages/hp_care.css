@@ -1,0 +1,317 @@
+.head1{
+    font-size: 40px;
+    padding-left: 60px;
+    padding-top: 20px;
+    color: black;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 79px 35px;
+    padding: 32px 2px;
+    width: 32%;
+    border-radius: 28px;
+    /* position: relative; */
+}
+
+.container {
+    width: 30%;
+    margin-top: 34px;
+    height: 140px;
+    border: 5px solid rgb(140 117 101);
+    background-color: white;
+    color: rgb(140 117 101);
+    padding-left: 30px;
+
+}
+
+.prabhu{
+    position: absolute;
+    left: 65px;
+    top: 500px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.prabhu img{
+    width: 50px;
+}
+.name1{
+    padding-left: 59px;
+    padding-top: -2PX;
+    line-height: 0.5;
+    font-size: 19px;
+    color:black;
+}
+
+.time{
+    position: absolute;
+    left: 65px;
+    top: 563px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.time img{
+    width: 30px;
+}
+.time-txt{
+    padding-left: 42px;
+    padding-top: 22PX;
+    line-height:3.6;
+    font-size: 15px;
+}
+
+.date{
+    position: absolute;
+    left: 65px;
+    top: 598px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.date img{
+    width: 30px;
+}
+.date-txt{
+    padding-left: 42px;
+    padding-top: -7PX;
+    /* line-height: 1; */
+    font-size: 15px;
+    top: -3px;
+}
+
+.exp{
+    position: absolute;
+    left: 295px;
+    top: 563px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.exp img{
+    width: 30px;
+}
+.exp-txt{
+    padding-left: 274px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    line-height: 3.6;
+    font-size: 15px;
+    position: relative;
+    top: -95px;
+}
+
+.availability{
+    position: absolute;
+    left: 295px;
+    top: 598px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.availability img{
+    width: 30px;
+}
+.availability-txt{
+    padding-left: 274px;
+    padding-top: 7px;
+    font-size: 15px;
+    position: relative;
+    top: -123px;
+}
+.disc{
+    color:rgb(71, 68, 66);
+    position: relative;
+    top: -100px
+}
+.go{
+    position: absolute;
+    right: 1008px;
+    top: 480px;
+    /* border: 2px solid pink; */
+    display: inline-block;
+    /* border-radius: 50%; */
+
+}
+.gop{
+    margin: 18px 9px;
+    background-color: rgb(140 117 101);
+    color: white;
+    padding: 5px 26px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    font-size: 19px;
+    cursor: pointer;
+}
+.gop:hover{
+    background-color: grey;
+
+}
+
+
+
+.container2{
+    border: 2px solid white;
+    margin: 79px 35px;
+    padding: 32px 2px;
+    width: 32%;
+    border-radius: 28px;
+    margin-left: 40%;
+    margin-top: -19.2%;
+    /* position: relative; */
+
+  
+
+}
+.container2 {
+    width: 32%;
+    /* margin-top: 1px; */
+    height: 142px;
+    border: 5px solid rgb(140 117 101);
+    background-color:rgb(140 117 101);
+    color:white;
+    padding-left: 3;
+
+}
+
+.priya{
+    position: absolute;
+    left: 634px;
+    top: 500px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.priya img{
+    width: 50px;
+}
+.name2{
+    padding-left: 83px;
+    padding-top: -2PX;
+    line-height: 0.5;
+    font-size: 19px;
+    color:black;
+}
+
+.time2{
+    position: absolute;
+    left: 637px;
+    top: 563px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.time2 img{
+    width: 30px;
+}
+.time-txt2{
+    padding-left: 65px;
+    padding-top: 22PX;
+    line-height:3.6;
+    font-size: 15px;
+}
+
+.date2{
+    position: absolute;
+    left: 637px;
+    top: 598px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.date2 img{
+    width: 30px;
+}
+.date-txt2{
+    padding-left: 65px;
+    padding-top: -7PX;
+    /* line-height: 1; */
+    font-size: 15px;
+    top: -3px;
+}
+
+.exp2{
+    position: absolute;
+    left: 870px;
+    top: 563px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.exp2 img{
+    width: 30px;
+}
+.exp-txt2{
+    padding-left: 300px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    line-height: 3.6;
+    font-size: 15px;
+    position: relative;
+    top: -95px;
+}
+
+.availability2{
+    position: absolute;
+    left: 870px;
+    top: 598px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* width: 100px; */
+    size: 1px;
+}
+.availability2 img{
+    width: 30px;
+}
+.availability-txt2{
+    padding-left: 300px;
+    padding-top: 7px;
+    font-size: 15px;
+    position: relative;
+    top: -123px;
+}
+.disc2{
+    color:rgb(207, 201, 197);
+    position: relative;
+    top: -100px;
+    left: 25px;
+}
+.go2{
+    position: absolute;
+    right: 438px;
+    top: 480px;
+    /* border: 2px solid pink; */
+    display: inline-block;
+    /* border-radius: 50%; */
+
+}
+.gop2{
+    margin: 18px 9px;
+    background-color: white;
+    color: rgb(140 117 101);
+    padding: 5px 26px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    font-size: 19px;
+    cursor: pointer;
+}
+.gop2:hover{
+    background-color: grey;
+
+}
+
+
+.resized-image {
+    width: 1520px; /* You can change the size to whatever you need */
+    height: auto; /* This maintains the aspect ratio */
+}

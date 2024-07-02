@@ -1,0 +1,108 @@
+body{
+    /* font-family: 'Teko', sans-serif; */
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    /* background: url('804849.jpg') ; */
+    background-size: cover;
+    /* background-position: center center; */
+}
+
+
+
+.left{
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+
+.left img{
+    width: 100px;
+}
+
+.left div{
+    text-align: center;
+    font-size: 15px;
+    line-height: 0px;
+
+}
+
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 44%;
+    margin: 18px auto;
+}
+
+.right{
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    /* border: 2px solid pink; */
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color: rgb(8, 0, 0);
+    text-decoration: none;
+    padding: 314px 23px;
+    font-size: 28px;
+    
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn{
+    margin: 18px 9px;
+    background-color: rgb(140 117 101);
+    color: white;
+    padding: 5px 26px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+
+}
+
+
+.border-solid {
+    background-color: rgb(140 117 101);
+    height: 253px;
+    width: 1500px;
+    border-color: brown;
+    padding-bottom: 20px; /* adds space between the text and the border */
+    padding-top: 10px; /* optional: adds space above the text */
+    padding-left: 10px; /* optional: adds space on the left */
+    padding-right: 10px;
+}
+
+.image{
+    max-width: 27%;
+    max-height: 127%;
+    object-fit: contain;
+    padding-left: 1082px;
+    /* padding-bottom: 50px; */
+    margin-top: -267px;
+}
+.welcome{
+    font-size: 82px;
+    padding-left: 176px;
+    padding-bottom: 1px;
+}
