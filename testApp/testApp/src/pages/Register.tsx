@@ -17,22 +17,23 @@ function Register(){
     return(
         <>
             <Navbar />
-            <h3>Create Account</h3>
-            <form>
-                <label htmlFor="FirstName">First Name</label>
-                <input value={FirstName} type="text" placeholder="your name" id="FirstName" name="FirstName" />
-                <label htmlFor="LastName">Last Name</label>
-                <input value={LastName} type="text" id="LastName" name="LastName" />
-                <label htmlFor="email">email</label>
-                <input value={email} type="email" placeholder="youremail@gmail.com" id="email" name="email" />
-                <label htmlFor="password">password</label>
-                <input value={pass} type="password" id="password" name="password" />
-                <button>Create Account</button>
-                <h6>Already have an account <Link to={'./login'}>Log In</Link></h6>
-                <h3>Or</h3>
-                <button>Log In with google</button>
-                <button>Log In with facebook</button>
-            </form>
+            <div className="signup-container">
+                <h2>Create Account</h2>
+                <form >
+                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Last Name" />
+                    <input type="Email" placeholder="Email" />
+                    <input type="password" placeholder="password" />
+                    <button type="submit">Create Account</button>
+                </form>
+                <div className="login-link">
+                    <Link to={'./Login'}>Already have an account? Log in.</Link>
+                </div>
+                <div className="alternative-signup">
+                    <button className="google">Sign up with Google</button>
+                    <button className="facebook">Sign up with facebook</button>
+                </div>
+            </div>
         </>
     );
 };
